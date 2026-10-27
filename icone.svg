@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Deux cartes à collectionner empilées (icône neutre, sans marque) -->
+  <rect x="8" y="12" width="30" height="42" rx="4" transform="rotate(-12 23 33)" fill="#fcfcfb" stroke="#0b0b0b" stroke-width="4"/>
+  <rect x="24" y="8" width="30" height="42" rx="4" transform="rotate(8 39 29)" fill="#f2c94c" stroke="#0b0b0b" stroke-width="4"/>
+  <path d="M39 20l3.2 6.5 7.1 1-5.2 5 1.3 7.1-6.4-3.4-6.4 3.4 1.3-7.1-5.2-5 7.1-1z" transform="rotate(8 39 29)" fill="#0b0b0b"/>
+</svg>

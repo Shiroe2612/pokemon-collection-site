@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; script-src &#39;self&#39; &#39;sha256-bI9U7KjsCYOGq5wPQb+6kJkQryC1PzJXt3bh3e9Xqps=&#39; &#39;wasm-unsafe-eval&#39; https://cdn.jsdelivr.net https://challenges.cloudflare.com blob:; frame-src https://challenges.cloudflare.com; worker-src &#39;self&#39; blob: https://cdn.jsdelivr.net; connect-src &#39;self&#39; https://dtxetgjsvqjnyouebggr.supabase.co wss://dtxetgjsvqjnyouebggr.supabase.co https://api.tcgdex.net https://cdn.jsdelivr.net https://challenges.cloudflare.com blob: data:; img-src &#39;self&#39; https: data: blob:; style-src &#39;self&#39; &#39;unsafe-inline&#39;; font-src &#39;self&#39; data:; manifest-src &#39;self&#39;; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;">
+    <meta name="referrer" content="no-referrer">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f2efe7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#131210" media="(prefers-color-scheme: dark)" />
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="./icone.svg" type="image/svg+xml" />
+    <link rel="icon" href="./icone-192.png" type="image/png" sizes="192x192" />
+    <!-- iPhone : icône de l'écran d'accueil (PNG obligatoire) et mode plein écran -->
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Collection" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="description" content="Suivi de ta collection de cartes à collectionner : scellé, cartes gradées, cartes, jeux." />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <title>Ma Collection TCG</title>
+    <script>
+      // Applique le thème choisi AVANT l'affichage (évite un flash clair/sombre)
+      try {
+        const t = localStorage.getItem('theme');
+        if (t === 'clair') document.documentElement.dataset.theme = 'light';
+        if (t === 'sombre') document.documentElement.dataset.theme = 'dark';
+      } catch {}
+    </script>
+    <script type="module" crossorigin src="./assets/index-Czs0w7G8.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-BCiCTKAo.js">
+    <link rel="modulepreload" crossorigin href="./assets/jsx-runtime-BjLx7v8f.js">
+    <link rel="modulepreload" crossorigin href="./assets/poles-B0DPFBOH.js">
+    <link rel="modulepreload" crossorigin href="./assets/supabase-K2mMvRrZ.js">
+    <link rel="modulepreload" crossorigin href="./assets/donnees-DqL_UUku.js">
+    <link rel="modulepreload" crossorigin href="./assets/liens-Pu8FCPOm.js">
+    <link rel="modulepreload" crossorigin href="./assets/images-B7A734Gl.js">
+    <link rel="modulepreload" crossorigin href="./assets/langue-Cr-yKwKW.js">
+    <link rel="stylesheet" crossorigin href="./assets/index--SNM-arS.css">
+  </head>
+  <body>
+    <div id="racine"></div>
+  </body>
+</html>

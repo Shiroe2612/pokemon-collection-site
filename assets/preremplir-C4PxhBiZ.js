@@ -1,0 +1,1 @@
+import{Kt as e}from"./index-Czs0w7G8.js";var t=`preremplir`;function n(n){try{sessionStorage.setItem(t,JSON.stringify(n))}catch{}e(`/collection/${n.pole}/nouveau`)}function r(e){try{let n=JSON.parse(sessionStorage.getItem(t)??`null`);return n?.pole===e?n:null}catch{return null}}function i(){try{sessionStorage.removeItem(t)}catch{}}export{i as n,n as r,r as t};
